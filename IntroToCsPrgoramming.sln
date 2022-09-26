@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Outline", "1-Outline\01-Outline.csproj", "{A6403822-6BED-4C7B-B445-A4AF830BDDA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Outline", "01-Outline\01-Outline.csproj", "{A6403822-6BED-4C7B-B445-A4AF830BDDA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
