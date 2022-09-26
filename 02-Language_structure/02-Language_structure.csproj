@@ -46,6 +46,7 @@
     <Compile Include="2-01 IdentifierApp.cs" />
     <Compile Include="2-02 IntegerConstantApp.cs" />
     <Compile Include="2-03 RealContantApp.cs" />
+    <Compile Include="2-04 BooleanConstantApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

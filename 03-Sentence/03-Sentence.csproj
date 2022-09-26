@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="+3-01.cs" />
+    <Compile Include="+3-02.cs" />
+    <Compile Include="3-20 SimpleIOApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
