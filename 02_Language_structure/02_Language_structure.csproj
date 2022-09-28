@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="+2-01.cs" />
+    <Compile Include="+2-02 PointerApp.cs" />
+    <Compile Include="+2-03 Temperature.cs" />
     <Compile Include="2-01 IdentifierApp.cs" />
     <Compile Include="2-02 IntegerConstantApp.cs" />
     <Compile Include="2-03 RealContantApp.cs" />
@@ -50,6 +54,8 @@
     <Compile Include="2-05 StringConstantApp.cs" />
     <Compile Include="2-06 CommentApp.cs" />
     <Compile Include="2-07 IntTypeApp.cs" />
+    <Compile Include="2-08 DoubleVsDecimal.cs" />
+    <Compile Include="2-09 EnumTypeApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
