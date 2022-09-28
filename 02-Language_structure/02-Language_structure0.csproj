@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A14B650E-14E3-487D-9918-EBC3B626DFE4}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>_03_Sentence</RootNamespace>
-    <AssemblyName>03-Sentence</AssemblyName>
+    <ProjectGuid>{1785E8D3-7CCB-4253-9DF1-DEB3A0E6A319}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>_02_Language_structure</RootNamespace>
+    <AssemblyName>02-Language_structure</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,6 +22,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +33,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -43,15 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="+3-01.cs" />
-    <Compile Include="+3-02.cs" />
-    <Compile Include="+3-03.cs" />
-    <Compile Include="+3-04.cs" />
-    <Compile Include="+3-05.cs" />
-    <Compile Include="3-20 SimpleIOApp.cs" />
-    <Compile Include="3-21 ReadLineApp.cs" />
-    <Compile Include="3-22 ReadIntegerApp.cs" />
-    <Compile Include="3-23 FormattedOutputApp.cs" />
+    <Compile Include="2-01 IdentifierApp.cs" />
+    <Compile Include="2-02 IntegerConstantApp.cs" />
+    <Compile Include="2-03 RealContantApp.cs" />
+    <Compile Include="2-04 BooleanConstantApp.cs" />
+    <Compile Include="2-05 StringConstantApp.cs" />
+    <Compile Include="2-06 CommentApp.cs" />
+    <Compile Include="2-07 IntTypeApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

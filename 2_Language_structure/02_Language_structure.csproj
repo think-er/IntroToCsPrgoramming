@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1785E8D3-7CCB-4253-9DF1-DEB3A0E6A319}</ProjectGuid>
+    <ProjectGuid>{2D002A2E-2C4B-42C8-9665-6699C012E7B3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02_Language_structure</RootNamespace>
-    <AssemblyName>02-Language_structure</AssemblyName>
+    <RootNamespace>_2_Language_structure</RootNamespace>
+    <AssemblyName>2_Language_structure</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,6 +47,9 @@
     <Compile Include="2-02 IntegerConstantApp.cs" />
     <Compile Include="2-03 RealContantApp.cs" />
     <Compile Include="2-04 BooleanConstantApp.cs" />
+    <Compile Include="2-05 StringConstantApp.cs" />
+    <Compile Include="2-06 CommentApp.cs" />
+    <Compile Include="2-07 IntTypeApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
