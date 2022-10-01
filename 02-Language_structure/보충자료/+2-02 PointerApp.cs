@@ -4,7 +4,7 @@
 //// 기존에 개발된 C/C++ 코드를 사용하기 위해서만 사용 (C#에서는 사용하지 말 것)
 //class PointerApp {
 //    // 포인터 연산은 반드시 unsafe 코드 블록 내에서만 가능
-//    unsafe public static void Swap(int *px, int* py) {
+//    unsafe public static void Swap(int* px, int* py) {
 //        int tmp = *px;
 //        *px = *py;
 //        *py = tmp;
