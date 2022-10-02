@@ -48,14 +48,35 @@
     <Compile Include="+3-03.cs" />
     <Compile Include="+3-04.cs" />
     <Compile Include="+3-05.cs" />
+    <Compile Include="문장\배정문%28할당문%29\01. 배정문%28할당문%29.cs" />
     <Compile Include="3-20 SimpleIOApp.cs" />
     <Compile Include="3-21 ReadLineApp.cs" />
     <Compile Include="3-22 ReadIntegerApp.cs" />
     <Compile Include="3-23 FormattedOutputApp.cs" />
+    <Compile Include="datetime 응용.cs" />
+    <Compile Include="datetime.cs" />
+    <Compile Include="formattedio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="문장\제어문\반복문\do-while 문\01. do-while 문.cs" />
+    <Compile Include="문장\제어문\반복문\for 문\01. for 문.cs" />
+    <Compile Include="문장\제어문\반복문\for 문\02. for 문 matrix 출력.cs" />
+    <Compile Include="문장\제어문\반복문\foreach 문\01. foreach 문.cs" />
+    <Compile Include="문장\제어문\반복문\while 문\01. while 문.cs" />
+    <Compile Include="문장\제어문\조건문\if 문\01. if 문.cs" />
+    <Compile Include="문장\제어문\조건문\if 문\02. if-else 문.cs" />
+    <Compile Include="문장\제어문\조건문\if 문\03. else if.cs" />
+    <Compile Include="문장\제어문\조건문\switch 문\01. switch 문 정수.cs" />
+    <Compile Include="문장\제어문\조건문\switch 문\02. switch문 스트링.cs" />
+    <Compile Include="문장\제어문\조건문\switch 문\03. 계산기 응용.cs" />
+    <Compile Include="문장\혼합문\01. 혼합문.cs" />
+    <Compile Include="문장\혼합문\02. 지역 변수.cs" />
+    <Compile Include="문장\혼합문\03. 메소드 변수.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="문장\제어문\분기문\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
