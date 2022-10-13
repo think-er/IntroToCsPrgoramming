@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF892C41-68AA-4987-9F06-AF0ACAA5E7CB}</ProjectGuid>
+    <ProjectGuid>{EA39B112-7689-42A7-B987-30325A573711}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04_Class_1_</RootNamespace>
-    <AssemblyName>04-Class%281%29</AssemblyName>
+    <RootNamespace>_05_Class_2_</RootNamespace>
+    <AssemblyName>05-Class%282%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,31 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="+4-01.cs" />
-    <Compile Include="+4-02.cs" />
-    <Compile Include="+4-03 GenericMethodApp.cs" />
-    <Compile Include="+4-04 하나의 property가 여러 필드를 사용.cs" />
-    <Compile Include="+4-05 자동구현 property.cs" />
-    <Compile Include="+4-06 인덱서를 사용하지 않은 경우.cs" />
-    <Compile Include="+4-07 인덱서를 사용하는 경우.cs" />
-    <Compile Include="+4-08 델리게이트 예제.cs" />
-    <Compile Include="+4-09 델리게이트 예제2.cs" />
-    <Compile Include="4-01 FractionApp.cs" />
-    <Compile Include="4-04 CallByValueApp.cs" />
-    <Compile Include="4-05 CallByReference.cs" />
-    <Compile Include="4-06 CallByObjectReferenceApp.cs" />
-    <Compile Include="4-07 ParameterArrayApp.cs" />
-    <Compile Include="4-09 MethodOverloadingApp.cs" />
-    <Compile Include="4-10 OverloadedConstructorApp.cs" />
-    <Compile Include="4-11 StaticConstructorApp.cs" />
-    <Compile Include="4-12 Destructor.cs" />
-    <Compile Include="4-13 DisposeApp.cs" />
-    <Compile Include="4-14 PropertyApp.cs" />
-    <Compile Include="4-15 RWOnlyPropertyApp.cs" />
-    <Compile Include="4-16 PropertyWithoutFieldApp.cs" />
-    <Compile Include="4-18 IndexerApp.cs" />
-    <Compile Include="4-19 StringIndexer.cs" />
-    <Compile Include="4-20 DelegateCallApp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

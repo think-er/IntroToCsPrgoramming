@@ -1,5 +1,6 @@
 ﻿//using System;
-//class RWOnlyPropertyApp {
+//class RWOnlyPropertyApp
+//{
 //    private int readOnlyField = 100;
 //    private int writeOnlyField;
 //    public int ReadOnlyProperty {
@@ -14,7 +15,8 @@
 //            writeOnlyField = value;
 //        }
 //    }
-//    public static void Main() {
+//    public static void Main()
+//    {
 //        RWOnlyPropertyApp obj = new RWOnlyPropertyApp();
 //        obj.WriteOnlyProperty = obj.ReadOnlyProperty;
 //        Console.WriteLine("value = " + obj.writeOnlyField);

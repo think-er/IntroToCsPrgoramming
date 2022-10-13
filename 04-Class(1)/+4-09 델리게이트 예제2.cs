@@ -1,0 +1,35 @@
+﻿//using System;
+//public delegate void MyDelegate(string msg);
+
+//class Program
+//{
+//    public static void Main()
+//    {
+//        MyDelegate del = ClassA.MethodA;
+//        // MyDelegate del = new Mydelegate(ClassA.MethodA);
+        
+//    }
+
+//    public static void InvokeDelegate(MyDelegate del)
+//    {
+//        del("Hello World");
+//    }
+
+//}
+
+
+//class ClassA
+//{
+//    public static void MethodA(string message)
+//    {
+//        Console.WriteLine("Called ClassA.MethodA() with parameter: " + message);
+//    }
+//}
+
+//class ClassB
+//{
+//    public static void MethodB(string message)
+//    {
+//        Console.WriteLine("Called ClassB.MethodB() with parameter: " + message);
+//    }
+//}
