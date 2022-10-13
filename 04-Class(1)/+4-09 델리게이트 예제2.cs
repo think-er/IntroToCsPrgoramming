@@ -7,7 +7,9 @@
 //    {
 //        MyDelegate del = ClassA.MethodA;
 //        // MyDelegate del = new Mydelegate(ClassA.MethodA);
-        
+//        InvokeDelegate(del);
+//        del = (string msg) => Console.WriteLine("Called lambda expression: " + msg);
+//        InvokeDelegate(del);
 //    }
 
 //    public static void InvokeDelegate(MyDelegate del)
