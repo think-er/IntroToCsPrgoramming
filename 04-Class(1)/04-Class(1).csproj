@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +53,7 @@
     <Compile Include="+4-07 인덱서를 사용하는 경우.cs" />
     <Compile Include="+4-08 델리게이트 예제.cs" />
     <Compile Include="+4-09 델리게이트 예제2.cs" />
+    <Compile Include="+4-10 ClickEventApp.cs" />
     <Compile Include="4-01 FractionApp.cs" />
     <Compile Include="4-04 CallByValueApp.cs" />
     <Compile Include="4-05 CallByReference.cs" />
@@ -68,6 +70,12 @@
     <Compile Include="4-18 IndexerApp.cs" />
     <Compile Include="4-19 StringIndexer.cs" />
     <Compile Include="4-20 DelegateCallApp.cs" />
+    <Compile Include="4-21 MultiCastApp.cs" />
+    <Compile Include="4-22 DelegateOperationApp.cs" />
+    <Compile Include="4-23 EventHandlingApp.cs" />
+    <Compile Include="4-24 OperatorOverloadingApp.cs" />
+    <Compile Include="4-25 XBoolApp.cs" />
+    <Compile Include="4-26 UserDefinedTypeConversionApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
