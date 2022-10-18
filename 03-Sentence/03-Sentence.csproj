@@ -71,11 +71,18 @@
     <Compile Include="문장\혼합문\01. 혼합문.cs" />
     <Compile Include="문장\혼합문\02. 지역 변수.cs" />
     <Compile Include="문장\혼합문\03. 메소드 변수.cs" />
+    <Compile Include="텍스트 파일 입출력\CodeFile1.cs" />
+    <Compile Include="텍스트 파일 입출력\CodeFile2.cs" />
+    <Compile Include="텍스트 파일 입출력\CodeFile3.cs" />
+    <Compile Include="텍스트 파일 입출력\CodeFile4.cs" />
+    <Compile Include="텍스트 파일 입출력\CodeFile5.cs" />
+    <Compile Include="텍스트 파일 입출력\CodeFile6.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="명령행 인자\" />
     <Folder Include="문장\제어문\분기문\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
