@@ -57,7 +57,7 @@
     <Compile Include="+4-11 구조체 객체 생성.cs" />
     <Compile Include="+4-12 클래스복사와 구조체복사.cs" />
     <Compile Include="+4-13 ToString%28%29 메소드 재정의1.cs" />
-    <Compile Include="+4-15 ToString%28%29 메소드 재정의3.cs" />
+    <Compile Include="+4-15 ToString%28%29 메소드재정의3.cs" />
     <Compile Include="4-01 FractionApp.cs" />
     <Compile Include="4-04 CallByValueApp.cs" />
     <Compile Include="4-05 CallByReference.cs" />
