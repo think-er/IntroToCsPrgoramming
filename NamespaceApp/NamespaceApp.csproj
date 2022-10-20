@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EA39B112-7689-42A7-B987-30325A573711}</ProjectGuid>
+    <ProjectGuid>{993990BB-9236-4690-959A-DF83A1DF6768}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05_Class_2_</RootNamespace>
-    <AssemblyName>05-Class%282%29</AssemblyName>
+    <RootNamespace>NamespaceApp</RootNamespace>
+    <AssemblyName>NamespaceApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Shape">
+      <HintPath>..\Shape\bin\Debug\net6.0\Shape.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,30 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="+5-01 클래스 상속 하이딩 오버라이딩1.cs" />
-    <Compile Include="+5-02 클래스 상속 하이딩 오버라이딩2.cs" />
-    <Compile Include="+5-03 다형성.cs" />
-    <Compile Include="+5-04 인터페이스.cs" />
-    <Compile Include="+5-05 인터페이스2.cs" />
-    <Compile Include="+5-06 인터페이스3.cs" />
-    <Compile Include="+5-07 다형성 구현.cs" />
-    <Compile Include="+5-08 네임스페이스.cs" />
-    <Compile Include="+5-09 네임스페이스2.cs" />
-    <Compile Include="+5-10 글로벌스페이스.cs" />
-    <Compile Include="5-01 HiddenNameApp.cs" />
-    <Compile Include="5-02 DerivedConstructorApp.cs" />
-    <Compile Include="5-03 BaseCallApp.cs" />
-    <Compile Include="5-04 OverridingAndOverloadingApp.cs" />
-    <Compile Include="5-05 VirtualMethodApp.cs" />
-    <Compile Include="5-06 AbstractClassApp.cs" />
-    <Compile Include="5-07 AddendumApp.cs" />
-    <Compile Include="5-07-1.cs" />
-    <Compile Include="5-08 ClassTypeConversionApp.cs" />
-    <Compile Include="5-09 PolymorphismApp.cs" />
-    <Compile Include="5-10 VirtualAndOverrideApp.cs" />
-    <Compile Include="5-11 ImplemetingInterfaceApp.cs" />
-    <Compile Include="5-12 DiamondApp.cs" />
-    <Compile Include="5-13 StructlmpApp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
